@@ -1,3 +1,3 @@
-# Learning PHP 🚀
+# Learning PHP
 
-from multiple resources 💻
+from multiple resources
