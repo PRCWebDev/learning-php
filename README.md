@@ -1,2 +1,2 @@
 # Learning PHP
-from different sources
+from multiple resources
