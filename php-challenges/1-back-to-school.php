@@ -1,5 +1,7 @@
 <?php
 
+// calculate the Area of different shapes using variables and formulas
+
 // Rectangle
 
 $length = 10;

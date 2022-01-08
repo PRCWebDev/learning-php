@@ -1,5 +1,7 @@
 <?php
 
+// use Concatenation to form the sentence John Henry Green is 42 years old. using the period method
+
 $firstName = "John";
 
 $middleName = "Henry";
