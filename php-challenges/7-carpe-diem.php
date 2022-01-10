@@ -13,6 +13,7 @@ The first one has been done for you:   
   EXTENSION    Check if the current year is a leap year.  Echo out a suitable message to say if it is or is not. 
 */
 
+// setting my timezone
 date_default_timezone_set('Europe/Bucharest');
 
 // 1.
@@ -36,7 +37,6 @@ echo date('l jS F Y, g:i A');
 echo "<br>";
 
 // EXTENSION
-
 if(date('L')){
   echo date('Y') . " is a leap year.";
 } else {
