@@ -41,3 +41,5 @@ print_r($result);
 echo "<br>";
 echo $result['title'];
 */
+
+$db_connection = NULL;

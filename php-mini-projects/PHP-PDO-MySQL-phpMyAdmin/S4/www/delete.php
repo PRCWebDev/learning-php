@@ -1,11 +1,10 @@
 <?php
-
 require_once('../db_config.php');
 
 if(!isset($_GET['id'])){
   header('Location: list-books.php');
   die();
-  } else {
+} else {
     $id = filter_var($_GET['id'], FILTER_VALIDATE_INT);
     if(!$id){
       header('Location: list-books.php');
@@ -23,7 +22,9 @@ if(!isset($_GET['id'])){
       //   echo "deletion failed";
       // }
     }
-  }
+}
+
+$db_connection = NULL;
 ?>
 
 <!DOCTYPE html>

@@ -4,6 +4,8 @@ require_once('../db_config.php');
 $query = "SELECT * FROM books";
 
 $results = $db_connection->query($query);
+
+$db_connection = NULL;
 ?>
 
 <!DOCTYPE html>
@@ -51,6 +53,15 @@ $results = $db_connection->query($query);
         ?>
       </tbody>
     </table>
-    </div>
+  </div>
+
+  <!-- ADDING A NEW RECORD -->
+  <br>
+  <div class="container">
+    <a href="create.php" id="addRecord">
+      <button type="submit" name="addRecord" class="btn btn-success">Add a New Record</button>
+    </a>
+  </div>
+  <br>
 </body>
 </html>
